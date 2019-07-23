@@ -1,0 +1,106 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* google custom fonts */
+@import url('https://fonts.googleapis.com/css?family=Courgette|Josefin+Sans|Kalam|Libre+Baskerville|Nunito|Permanent+Marker|Shadows+Into+Light|Sniglet&display=swap');
+
+/* custom fonts */
+h1 {
+  font-family: Kalam;
+}
+
+/* wrapper back ground */
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* nav */
+nav ul a,
+nav .brand-logo {
+  color: rgb(223, 221, 221);
+}
+
+/* side nav */
+.li a:hover {
+  color: white;
+}
+
+/* buttons  */
+/* social icons hover  */
+.fa:hover {
+  color: rgb(31, 107, 31);
+}
+
+/* button hover */
+.btn:hover {
+  color: lightgrey;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: rgb(31, 107, 31);
+}
+
+/* wrapper back ground */
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* parallax */
+
+.parallax-container {
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+.parallax-container .header-1 {
+  max-width: 100%;
+  padding-top: 4rem;
+  font-family: sans-serif;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+/* icons  */
+.icon-block {
+  padding: 0 5px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* footer */
+
+footer.page-footer {
+  margin: 0;
+  background-color: #202020;
+}
